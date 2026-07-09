@@ -4,33 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site da agua</title>
-    <style>
-        body {
-            background-color: rgb(5, 189, 143);
-        }
-        header{  
-          background-color: rgb(48, 178, 238);
-          color: azure ;
-          text-align: center;
-          max-width: 800px;
-          margin:0 auto;
-          border: 2px solid #000000;
-          padding: 16px
-       }
-       main {     
-            
-          color: rgb(0, 9, 9) ; 
-          text-align: center;
-          margin:0 auto;
-          display: inline;
-       }
-       img {    
-        width: 300px;
-        height: 300px;
-        border: 2px solid #000000;
-       }
-</style>
-
+   
 </head>
 <body>
     <header>
@@ -51,19 +25,5 @@
 
  </main>
 </body>
-
-<script> 
- const botoes = document.querySelectorAll("button");
- botoes.forEach(function(botaoClicado){
- botao.addEventListener("click",botaoClicado);
-
-   
- function botaoClicado(){
-    console.log("fui clicado");
-    let texto = botao.querySelector("span");
-    texto.textContent++;
- }
-});
-</script>
-
+<script src="script.js"></script>
 </html>
