@@ -1,3 +1,11 @@
+: root{ 
+  --cor-primaria:#3200c9; 
+  --cor-secundaria: #6a39ff;
+  --cor-fundo:#4812e9;
+  --cor-texto:#fdfcfe;
+  --cor-contraste:#442896;
+  --cor-botao:#14024b;
+}
 
         body {
             background-color: rgb(5, 189, 143);
