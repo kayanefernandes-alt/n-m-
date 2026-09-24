@@ -10,3 +10,7 @@
     texto.textContent++;
  }
 });
+
+const btnTemaEscuro = document.querySelector(".btn-tema-escuro");
+
+btnTemaEscuro.addEventListener("click", muda)
