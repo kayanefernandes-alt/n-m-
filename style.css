@@ -20,7 +20,7 @@
           padding: 16px
        }
        main {     
-            
+          
           color: rgb(0, 9, 9) ; 
           text-align: center;
           margin:0 auto;
@@ -31,7 +31,25 @@
         height: 300px;
         border: 2px solid #000000;
        }
+       .btn-tema-escuro { 
+        position: fixed;
+        bottom: 16px;
+        right: 16px;
+        font-size: 32px;
+        padding: 12px;
+        background-color: var(--cor-primaria);
+        border-radius: 50%;
+       }
+
+       .tema-escuro .btn-tema-escuro { 
+        background-color: var(--cor-secundaria);
+       }
+
+       *{ 
+        transition: background-color 0.3s ease;
+       }
 
        article {
          text-align: center;
        }
+
