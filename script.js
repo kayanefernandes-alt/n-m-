@@ -23,3 +23,4 @@ function mudaTema () {
       corpoPagina.classList.add("tema-escuro");
    }
 }
+
